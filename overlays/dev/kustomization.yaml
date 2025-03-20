@@ -5,6 +5,7 @@ images:
   newTag: e70be61b
 patchesStrategicMerge:
 - configmap.yaml
-- secret.yaml
+# - secret.yaml
 resources:
 - ../../base
+- secret.yaml
